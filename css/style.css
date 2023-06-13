@@ -1,0 +1,225 @@
+body{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(198,191,58,1) 0%, rgba(253,45,225,1) 100%);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    border: solid white;
+    background-color: rgb(113, 10, 110);
+    border-radius: 10px;
+}
+.logo{
+    margin-left:-12rem;
+}
+.logo:hover{
+    transform:scale(1.1);
+}
+nav,ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 13px 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+}
+nav a:hover{
+    color:rgb(162, 148, 18);
+    text-shadow:2px 2px 8px rgb(242, 247, 248);
+    
+
+}
+nav li{
+    list-style-type: none;
+}
+#para1>img{
+    float: right;
+    margin-right: 100px;
+}
+aside{
+    width: 40%;
+    padding-left: 0px;
+    margin-left: 100px;
+    float: left;
+    font-size:20px;
+}
+aside>h1{
+    line-height:110px;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow:2px 4px 4px white;
+    color:rgb(105, 10, 10);
+    font-size:3rem;
+}
+aside>h2{
+    line-height:110px;
+    font-family: 'Kaushan Script', cursive;
+    color:lavenderblush;
+    text-shadow:2px 4px 4px black;
+}
+.part>h2,.part1>h2{
+    font-family: 'Changa One', cursive;
+    color:rgb(11, 11, 123);
+    text-shadow:2px 4px 4px white ;
+}
+.part{
+    width: 30%;
+    padding-top: 0px;
+    margin-top:-250px;
+    margin-right: 100px;
+    float: right;
+    font-size:20px;
+}
+#o2>img{
+    padding-top:50px;
+    margin-top:100px;
+    margin-left:100px;
+}
+.part1{
+    width: 30%;
+    padding-top: 0px;
+    margin-top:20px;
+    margin-left: 100px;
+    float: left;
+    font-size:20px;
+}
+.para3>img{
+    float: right;
+    margin-right: 100px;
+}
+
+.footer{
+    padding-bottom:0px;
+    margin-top:20rem;
+    
+}
+.footer-item{
+    width: 30%;
+    margin-left:100px;
+}
+.footer-item1{
+    float:right;
+    margin-right:30rem;
+    margin-top:-145px;
+}
+.footer-item2{
+    float:right;
+    margin-right:10rem;
+    margin-top:-145px;
+}
+.social-links>li{
+    display:inline;
+    list-style:circle;
+}
+#o2 img:hover{
+    transform: scale(1.1);
+  }
+.para3 img:hover{
+    transform: scale(1.1);
+  }
+footer{
+    font-family: 'Dancing Script', cursive;
+    
+    background-color:grey
+}
+h3{
+    color:crimson;
+    text-decoration: underline;
+    text-shadow:2px 3px 3px white;
+    
+}
+h3:hover{
+    transform: rotate(1.1);
+}
+#o2>img,.para3>img{
+    box-shadow: 2px 4px 4px rgb(20, 20, 20);
+}
+
+ @media only screen and(max-width:768px){
+    header{
+        display: flex;
+        flex-direction: column;
+        border: solid white;
+        background-color: rgb(113, 10, 110);
+        border-radius: 10px;
+        }
+        .logo{
+        margin-left: 0;
+        }
+        nav, ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        margin: auto;
+        }
+        .nav li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 0;
+        }
+        #para1 > img{
+        float: none;
+        margin: auto;
+        }
+        aside{
+        width: 100%;
+        margin: auto;
+        float: none;
+        font-size:20px;
+        }
+        .part{
+        width: 100%;
+        margin: auto;
+        float: none;
+        font-size:20px;
+        }
+        .part1{
+        width: 100%;
+        margin: auto;
+        float: none;
+        font-size:20px;
+        }
+        #o2 > img{
+        padding-top: 20px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        .para3 > img{
+        float: none;
+        margin: auto;
+        }
+        .footer{
+        padding-bottom:0px;
+        margin-top:5rem;
+        }
+        .footer-item{
+        width: 100%;
+        margin: auto;
+        }
+        .footer-item1{
+        float:none;
+        margin-right: 0;
+        margin-top: 20px;
+        text-align: center;
+        }
+        .footer-item2{
+        float:none;
+        margin-right: 0;
+        margin-top: 20px;
+        text-align: center;
+        }
+        }
